@@ -6,14 +6,18 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class CalcTest {
-    @Test
-    void firstTest(){
+class CalcTest {
 
-    }
+    Calc myCalc;
 
     @BeforeEach
     void setUp() {
+        myCalc = new Calc();
+    }
+
+    @Test
+    void testAdd() {
+        assertEquals(2, myCalc.add());
     }
 
     @AfterEach
