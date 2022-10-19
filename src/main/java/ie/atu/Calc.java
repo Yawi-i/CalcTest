@@ -42,5 +42,18 @@ public class Calc {
         System.out.println("The total is " + total);
         return total;
     }
+
+    public int divide(){
+        // System.out.println("First number: ");
+        // Scanner inputs = new Scanner(System.in);
+        int firstNumber = 8; //inputs.nextInt();
+
+        // System.out.println("Second number: ");
+        int secondNumber = 4; //inputs.nextInt();
+
+        int total = firstNumber / secondNumber;
+        System.out.println("The total is " + total);
+        return total;
+    }
 }
 

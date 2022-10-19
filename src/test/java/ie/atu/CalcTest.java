@@ -30,6 +30,11 @@ class CalcTest {
         assertEquals(4, myCalc.multiply());
     }
 
+    @Test
+    void testDivide() {
+        assertEquals(2, myCalc.divide());
+    }
+
     @AfterEach
     void tearDown() {
     }
