@@ -20,6 +20,11 @@ class CalcTest {
         assertEquals(2, myCalc.add());
     }
 
+    @Test
+    void testSubtract() {
+        assertEquals(0, myCalc.subtract());
+    }
+
     @AfterEach
     void tearDown() {
     }
