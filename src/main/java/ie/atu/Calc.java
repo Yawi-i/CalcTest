@@ -16,5 +16,18 @@ public class Calc {
         System.out.println("The total is " + total);
         return total;
     }
+
+    public int subtract(){
+        // System.out.println("First number: ");
+        // Scanner inputs = new Scanner(System.in);
+        int firstNumber = 1; //inputs.nextInt();
+
+        // System.out.println("Second number: ");
+        int secondNumber = 1; //inputs.nextInt();
+
+        int total = firstNumber - secondNumber;
+        System.out.println("The total is " + total);
+        return total;
+    }
 }
 
