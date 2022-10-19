@@ -25,6 +25,11 @@ class CalcTest {
         assertEquals(0, myCalc.subtract());
     }
 
+    @Test
+    void testMultiply() {
+        assertEquals(4, myCalc.multiply());
+    }
+
     @AfterEach
     void tearDown() {
     }
